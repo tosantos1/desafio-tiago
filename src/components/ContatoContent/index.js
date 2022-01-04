@@ -28,7 +28,7 @@ export function ContatoContent() {
 
   function VerificationSubmit() {
     if (emptyValue) {
-      toast.success("Cadastrado foi enviado com sucesso!");
+      toast.success("Cadastro foi enviado com sucesso!");
     }
   }
 
