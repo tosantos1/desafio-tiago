@@ -15,7 +15,7 @@ export function HomeContent() {
           </Link>
         </div>
         <h2>Conteúdos essenciais </h2>
-        <p>Sou desenvolvedor e estou à disposição para auxiliar e sanar qualquer dúvida que você tiver no âmbito do Front End de forma gratuita. A seguir conteúdos que eu posso auxiliar:</p>
+        <p>Sou desenvolvedor e estou à disposição para auxiliar e sanar suas dúvidas no âmbito do Front End de forma gratuita. A seguir conteúdos que eu posso auxiliar:</p>
         <ContentHome />
       </section>
     </main >
