@@ -31,7 +31,7 @@ export function ContatoContent() {
     if (form.name === "" || form.email === "") {
       toast.error("Preencha todos os campos!");
     } else {
-      toast.success("Mensagem enviada com sucesso!");
+      toast.success("Cadastro enviado com sucesso!");
     }
 
     console.log(form)
