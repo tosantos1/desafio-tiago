@@ -17,6 +17,7 @@ export function ContatoContent() {
     let newProp = form;
     newProp[e.target.name] = e.target.value
     setForm(newProp)
+
   }
 
   const handleSubmit = (e) => {
@@ -27,9 +28,13 @@ export function ContatoContent() {
   }
 
   function VerificationSubmit() {
-    if (emptyValue) {
-      toast.success("Cadastro foi enviado com sucesso!");
+    if (form.name === "" || form.email === "") {
+      toast.error("Preencha todos os campos!");
+    } else {
+      toast.success("Mensagem enviada com sucesso!");
     }
+
+    console.log(form)
   }
 
   return (
