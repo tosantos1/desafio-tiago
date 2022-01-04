@@ -1,0 +1,33 @@
+.headerContainer {
+  background-color: #fff;
+}
+.headerContent {
+  padding: 16px 24px;
+  margin: auto;
+
+  max-width: 1200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+
+  .navItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      color: var(--dark-smoke);
+      font-size: 18px;
+      margin-right: 8px;
+      font-weight: bold;
+    }
+  }
+}
